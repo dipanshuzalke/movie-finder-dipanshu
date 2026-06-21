@@ -16,14 +16,12 @@ interface HeroSectionProps {
   movies: Movie[];
 }
 
-export default function HeroSection({
-  movies,
-}: HeroSectionProps) {
+export default function HeroSection({ movies }: HeroSectionProps) {
   const plugin = React.useRef(
     Autoplay({
       delay: 4000,
       stopOnInteraction: false,
-    })
+    }),
   );
 
   return (
@@ -37,10 +35,7 @@ export default function HeroSection({
       >
         <CarouselContent>
           {movies.map((movie) => (
-            <CarouselItem
-              key={movie.id}
-              className="basis-full"
-            >
+            <CarouselItem key={movie.id} className="basis-full">
               <div className="relative h-[80vh] w-full">
                 <img
                   src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
@@ -72,8 +67,22 @@ export default function HeroSection({
                       </button>
                     </div>
 
-                    <div className="mt-4 text-yellow-400 font-medium">
-                      ⭐ {movie.vote_average.toFixed(1)}
+                    <div className="flex flex-wrap items-center gap-3 mb-4 text-sm md:text-base">
+                      <span className="font-semibold text-yellow-400">
+                        ⭐ {movie.vote_average.toFixed(1)}
+                      </span>
+
+                      <span className="text-gray-400">•</span>
+
+                      <span>{movie.release_date?.split("-")[0]}</span>
+
+                      <span className="text-gray-400">•</span>
+
+                      <span>
+                        {movie.genres
+                          .map((genre: any) => genre.name)
+                          .join(", ")}
+                      </span>
                     </div>
                   </div>
                 </div>

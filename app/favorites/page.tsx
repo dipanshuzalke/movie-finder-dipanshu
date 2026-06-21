@@ -1,6 +1,6 @@
 "use client";
 
-import MovieCard from "@/components/ui/movie/MovieCard";
+import MovieCard from "@/components/movie/MovieCard";
 import { useEffect, useState } from "react";
 
 export default function FavoritesPage() {

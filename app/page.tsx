@@ -7,8 +7,8 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import MovieCard from "@/components/ui/movie/MovieCard";
-import HeroSection from "@/components/ui/movie/HeroSection";
+import MovieCard from "@/components/movie/MovieCard";
+import HeroSection from "@/components/movie/HeroSection";
 
 interface HomeProps {
   searchParams: Promise<{

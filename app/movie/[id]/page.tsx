@@ -1,10 +1,5 @@
-import Image from "next/image";
-
 import { getMovieCredits, getMovieDetails } from "@/services/movieApi";
-import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
-import { ProductionCompany } from "@/types/movie";
-import FavoriteButton from "@/components/ui/movie/FavoriteButton";
+import FavoriteButton from "@/components/movie/FavoriteButton";
 
 export default async function MovieDetailsPage({
   params,

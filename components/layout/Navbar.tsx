@@ -21,7 +21,7 @@ export default function Navbar() {
           >
             <Film className="h-7 w-7 text-red-600" />
 
-            <span className="text-xl md:text-2xl font-bold text-white">
+            <span className="text-xl md:text-2xl font-bold text-red-600">
               MovieTime
             </span>
           </Link>
