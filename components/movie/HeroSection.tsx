@@ -67,7 +67,7 @@ export default function HeroSection({ movies }: HeroSectionProps) {
                       </button>
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-3 mb-4 text-sm md:text-base">
+                    <div className="flex flex-wrap items-center gap-3 mb-4 text-sm md:text-base mt-2">
                       <span className="font-semibold text-yellow-400">
                         ⭐ {movie.vote_average.toFixed(1)}
                       </span>
@@ -75,14 +75,6 @@ export default function HeroSection({ movies }: HeroSectionProps) {
                       <span className="text-gray-400">•</span>
 
                       <span>{movie.release_date?.split("-")[0]}</span>
-
-                      {/* <span className="text-gray-400">•</span>
-
-                      <span>
-                        {movie.genres
-                          .map((genre: any) => genre.name)
-                          .join(", ")}
-                      </span> */}
                     </div>
                   </div>
                 </div>
