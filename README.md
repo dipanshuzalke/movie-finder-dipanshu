@@ -59,7 +59,7 @@ git clone "https://github.com/dipanshuzalke/movie-finder-dipanshu.git"
 Move into the project:
 
 ```bash
-cd movie-time
+cd movie-finder-dipanshu
 ```
 
 Install dependencies:
