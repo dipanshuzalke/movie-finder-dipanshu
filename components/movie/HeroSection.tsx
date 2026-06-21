@@ -76,13 +76,13 @@ export default function HeroSection({ movies }: HeroSectionProps) {
 
                       <span>{movie.release_date?.split("-")[0]}</span>
 
-                      <span className="text-gray-400">•</span>
+                      {/* <span className="text-gray-400">•</span>
 
                       <span>
                         {movie.genres
                           .map((genre: any) => genre.name)
                           .join(", ")}
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
