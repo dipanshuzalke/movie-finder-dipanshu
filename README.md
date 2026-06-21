@@ -53,7 +53,7 @@ NEXT_PUBLIC_TMDB_BASE_URL=https://api.themoviedb.org/3
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone "https://github.com/dipanshuzalke/movie-finder-dipanshu.git"
 ```
 
 Move into the project:

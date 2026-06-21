@@ -1,5 +1,3 @@
-# AI_LOG.md
-
 ## Tools Used
 
 * Next.js App Router for routing, server components, and page structure.
@@ -10,14 +8,11 @@
 
 ---
 
-## Best Prompts
+## Prompts
 
-### Prompt 1
+### Prompt 1 : Build a Movie Discovery App in Next.js that fetches data from a free public API and lets users browse, search, view details, and save favorites.
 
-**"Build a Movie Discovery App in Next.js that fetches data from a free public API and lets users browse, search, view details, and save favorites."**
-
-Why it worked:
-It helped establish the overall architecture of the application including pages, components, API integration, and required features.
+-> It helped establish the overall architecture of the application including pages, components, API integration, and required features.
 
 ### Prompt 2
 
