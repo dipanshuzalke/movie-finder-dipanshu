@@ -14,19 +14,13 @@
 
 -> It helped establish the overall architecture of the application including pages, components, API integration, and required features.
 
-### Prompt 2
+### Prompt 2 Create a professional movie details page similar to Netflix/IMDb using shadcn components.
 
-**"Create a professional movie details page similar to Netflix/IMDb using shadcn components."**
+-> It generated a much cleaner layout for the movie details page and helped organize ratings, overview, director information, and recommendations.
 
-Why it worked:
-It generated a much cleaner layout for the movie details page and helped organize ratings, overview, director information, and recommendations.
+### Prompt 3 : Implement live movie search where results update as the user types and close the dropdown when clicking outside.
 
-### Prompt 3
-
-**"Implement live movie search where results update as the user types and close the dropdown when clicking outside."**
-
-Why it worked:
-It helped create a responsive search experience with debouncing, dropdown suggestions, loading states, and proper user interactions.
+-> It helped create a responsive search experience with debouncing, dropdown suggestions, loading states, and proper user interactions.
 
 ---
 
